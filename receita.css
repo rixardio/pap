@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea, button, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(204, 136, 9);;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: rgb(204, 136, 9);
+}
+
+.receita {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.receita h2 {
+    color: #333;
+}
+
+.receita p {
+    font-weight: bold;
+    color: #555;
+}
+
+.receita ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.receita li {
+    margin-bottom: 5px;
+    color: #777;
+}
+
+.receita img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.receita button {
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.receita button:hover {
+    background-color: #c0392b;
+}

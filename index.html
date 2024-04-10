@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+
+</head>
+
+<body>
+    <!--Começa o home-->
+    <header class="max-width bg" id="home">
+            <div class="container">
+            <div class="menu">
+                <div class="logo"></div>
+                <div class="desktop-menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#service">Serviços</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reserva">Reserva</a></li>
+                        <li><a href="#receita">Receita</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                            
+                    </ul>
+                </div>
+            </div>
+
+            <div class="call">
+                <div class="left">
+                    <img src="1.png" alt="">
+                </div>
+                <div class="right">
+                    <h1 class="color-laranja text-gd">Restaurante Food</h1>                        
+                    <h2 class="color-cinzento-1 text-md">Bem-Vindo</h2>
+                    <p class="text.pq">Venha se alimentar ao seu gosto, partilhar 
+                        momentos e risos junto com a familia food
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <button id="back-to-top">^</button>
+    </header>
+
+     <!--Começa o about-->
+
+        <section class="max-width bg" id="about">
+            <div class="container">
+                <div class="class">
+                    <div class="left">
+                        <img src="5.png" alt="">
+                    </div>
+                    <span class="text-title color-laranja">Sobre Nós</span>
+                    <h2 class="text-md color-cinzento-1">Nós cozinhamos para si</h2>
+                         <p>O Restaurante Food foi criado em 2023, com a sua abertura por Portugal.
+            Começamos pelo porto e pretendemos ir pelo mundo todo </p>
+            <div class="sabemais">
+                <ul>
+                    <li><a href="sobre.html">saiba mais</a></li>
+                </ul>
+                </div>
+                   <div class="right">
+                    </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+    <!--Começa o service-->
+    <section class="max-width bg" id="service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class="text-title color-laranja">Ofertas</span> 
+                    <h2 class="text-md color-cinzento-1">Nossos Serviços</h2>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <i class="fa-solid fa-utensils text-gd color-laranja"></i>
+                        <h2>Serviço de Familia</h2>
+                        <p>Com a maxima segurança o nosso restaurante é para a familia toda </p>
+                        <div class="saibamais1">
+                            <ul>
+                                <li><a href="serviçoefamilia.html" >saiba mais</a></li>
+                            </ul>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-burger text-gd color-laranja"></i> <!--usei font awesome 6 para os icons-->
+                        <h2>Datas comemorativas</h2>
+                        <p>Em dias de comemoração, temos algumas coisas comemorativas </p>
+                        <div class="saibamais2">
+                            <ul>
+                                <li><a href="datascomemorativas.html" >saiba mais</a></li>
+                            </ul>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-motorcycle text-gd color-laranja"></i>
+                        <h2>Entrega em mãos</h2>
+                        <p>Com os melhores serviços de entrega, você tem a sua melhor experiência</p>
+                        <div class="saibamais3">
+                            <ul>
+                                <li><a href="entregaemmaos.html" >saiba mais</a></li>
+                            </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+   <div class="box"></div>
+   
+   <div class="box"></div>
+   
+   
+   
+   
+    <!--Começa o menu-->
+
+    <section class="max-width bg" id="menu">
+        <div class="container">
+            <div class="class">
+                <span class="text-title color-laranja">Menu</span>
+                <div class="espaço"></div>
+                     <p>Descubra uma jornada culinária que celebra a autenticidade e os sabores 
+                        irresistíveis do Porto em cada prato que servimos. No coração do nosso menu, 
+                        encontra-se uma fusão de tradição e inovação, 
+                        proporcionando uma experiência gastronômica única  </p>
+        <div class="left">
+            <img src="menuu.png" alt="">  
+        </div>
+        <div class="vermenu">
+            <ul>
+                <li><a href="menu.html">Ver Menu</a></li>
+            </ul>
+            </div>
+               <div class="right">
+                </div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+
+<!--Começa a reserva-->
+<section class="max-width bg" id="reserva">
+<span class="text-title color-laranja">Reserva</span>
+<div id="reservation-form">
+    <h2>Faça ja o seu</h2>
+    <form id="reservation">
+        <label for="nome">Nome proprio *</label>
+        <input type="nome" placeholder="Introduza o seu nome proprio"  id="nome" required>
+
+        <label for="apelido">Apelido*</label>
+        <input type="apelido" placeholder="Introduza o seu apelido" id="apelido" required>
+
+        <label for="numero de pessoas">Quantas pessoas *</label>
+        <input type="number"  placeholder="Introduza o numero de pessoas" id="number" required>
+    
+        <label for="endereço">Qual o seu endereço *</label>
+        <input type="endereço"  placeholder="Introduza o seu endereço" id="endereço" required>
+
+        <label for="date">Data *</label>
+        <input type="date" id="date" name="date" min="<?php echo date('Y-m-d'); ?>" required>
+
+        <label for="time">Hora *</label>
+        <input type="time" id="time"  required>
+
+        <button type="button" onclick="submitReservation()">Reservar</button>
+    </form>
+</div>
+
+<script src="reserva.js"></script>
+</section>
+
+
+<div class="espaço"></div>
+<div class="espaço"></div>
+
+<section class="max-width bg" id="receita">
+    <div class="container">
+        <div class="class">
+            <span class="text-title color-laranja">Quer nos ajudar</span>
+            <h2 class="text-md color-cinzento-1">Adiciona a tua receita</h2>
+                 <p>Achas que podes nos ajudar com sugestões de comida?
+                    Clica no Adicionar receita e faz a tua, estas a nos ajudar bastante </p>
+    <div class="Adicionaareceita">
+        <ul>
+            <li><a href="receita.html">Adiciona a Receita</a></li>
+        </ul>
+        </div>
+           <div class="right">
+            </div>
+                </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+<script src="backtotop.js"></script>
+
+
+
+<section class="max-width bg" id="contacto">
+    <div class="container">
+        <div class="contact-content">
+         <span class="text-title color-laranja">Entre em contacto</span>
+         <h2 class="text-md color-cinzento-1">Ficariamos felizes em ouvir você</h2>
+  
+          <div class="contact-details">
+            <address>
+              <p>Endereço: Traveça das Rosas, 467</p>
+              <p>Telefone: +351 269 587 436  </p>
+              <p>Email: contact@restaurantefood.com</p>
+            </address>
+          </div>
+  
+          <div class="contact-form">
+            <form id="contact-form">
+              <label for="name">Nome*</label>
+              <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+  
+              <label for="email">E-mail*</label>
+              <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+  
+              <label for="message">Mensagem*</label>
+              <textarea id="message" name="message" placeholder="Sua Mensagem" rows="4" required></textarea>
+  
+              <button type="button"  id="enviarBtn">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="map-section">
+      <div class="container">
+        <h5>Nossa Localização</h5>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24035.347294983578!2d-8.628519139427878!3d41.1472205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sporto%20restaurantes!5e0!3m2!1spt-PT!2spt!4v1706173688273!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+<script src="contacto.js"></script>
+</body>
+</html>
+
+
+

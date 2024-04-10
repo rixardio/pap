@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(204, 136, 9);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.parcerias {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.parceria {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.parceria img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.parceria-text {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+

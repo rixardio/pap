@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="receita.css">
+    <title>Adicionar Receitas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Adicionar Receitas</h1>
+        <form id="form-receita">
+            <label for="nome">Nome da Receita:</label>
+            <input type="text" placeholder="Digite o nome da receita" id="nome" required>
+
+            <label for="ingredientes">Ingredientes (separe cada ingrediente com uma quebra de linha):</label>
+            <textarea id="ingredientes" placeholder="Digite os ingredientes" required></textarea>
+
+            <label for="preparacao">Preparação (separe cada passo com uma quebra de linha):</label>
+            <textarea id="preparacao" placeholder="Digite os passos" required></textarea>
+
+            <label for="foto">Escolher Foto:</label>
+            <input type="file" id="foto" accept="image/*" required>
+
+            <button type="button" id="btnAdicionarReceita" onclick="adicionarReceita()">Adicionar Receita</button>
+        </form>
+
+        <div id="receitas-container"></div>
+    </div>
+
+    <script src="receita.js"></script>
+</body>
+</html>
