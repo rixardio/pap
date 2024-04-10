@@ -1,10 +1,10 @@
 var ideiasComida = [
-    { data: "Dia dos Namorados", comida: "Fondue de Chocolate", imagem: "datas/foundechoco.png", detalhes: "Uma deliciosa opção para compartilhar momentos especiais com chocolate derretido e frutas.", aberto: false },
-    { data: "Halloween", comida: "Maçãs do Amor Envenenada", imagem: "datas/macal.png", detalhes: "Maçãs caramelizadas com cobertura de chocolate, uma guloseima divertida para o Halloween.", aberto: false },
-    { data: "Natal", comida: "Assado de Peru", imagem: "datas/peru.webp", detalhes: "Peru assado com ervas e temperos natalinos, perfeito para celebrar o Natal em família.", aberto: false },
-    { data: "Aniversário", comida: "Bolo Decorado", imagem: "datas/boloaniv.jpg", detalhes: "Um bolo decorado com criatividade para celebrar ocasiões especiais.", aberto: false },
-    { data: "Páscoa", comida: "Ovos de Chocolate", imagem: "datas/ovos.webp", detalhes: "Ovos de chocolate recheados com surpresas, uma tradição deliciosa na Páscoa.", aberto: false },
-    { data: "Dia da Independência", comida: "Hambúrgueres e Hot Dogs", imagem: "datas/hotburg.png", detalhes: "Um churrasco com hambúrgueres e hot dogs para celebrar o Dia da Independência.", aberto: false },
+    { data: "Dia dos Namorados", comida: "Fondue de Chocolate", imagem: "foundechoco.png", detalhes: "Uma deliciosa opção para compartilhar momentos especiais com chocolate derretido e frutas.", aberto: false },
+    { data: "Halloween", comida: "Maçãs do Amor Envenenada", imagem: "macal.png", detalhes: "Maçãs caramelizadas com cobertura de chocolate, uma guloseima divertida para o Halloween.", aberto: false },
+    { data: "Natal", comida: "Assado de Peru", imagem: "peru.webp", detalhes: "Peru assado com ervas e temperos natalinos, perfeito para celebrar o Natal em família.", aberto: false },
+    { data: "Aniversário", comida: "Bolo Decorado", imagem: "boloaniv.jpg", detalhes: "Um bolo decorado com criatividade para celebrar ocasiões especiais.", aberto: false },
+    { data: "Páscoa", comida: "Ovos de Chocolate", imagem: "ovos.webp", detalhes: "Ovos de chocolate recheados com surpresas, uma tradição deliciosa na Páscoa.", aberto: false },
+    { data: "Dia da Independência", comida: "Hambúrgueres e Hot Dogs", imagem: "hotburg.png", detalhes: "Um churrasco com hambúrgueres e hot dogs para celebrar o Dia da Independência.", aberto: false },
 ];
 
 document.addEventListener('DOMContentLoaded', function() {
